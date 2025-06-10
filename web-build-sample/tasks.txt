@@ -147,7 +147,7 @@ This task provides instructions for validating documentation against checklists.
 
 ## Context
 
-The BMAD Method uses various checklists to ensure quality and completeness of different artifacts. The mapping between checklists and their required documents is defined in `checklist-mappings`. This allows for easy addition of new checklists without modifying this task.
+The BMAID Method uses various checklists to ensure quality and completeness of different artifacts. The mapping between checklists and their required documents is defined in `checklist-mappings`. This allows for easy addition of new checklists without modifying this task.
 
 ## Instructions
 
@@ -1036,13 +1036,13 @@ To design a comprehensive infrastructure architecture that defines all aspects o
 - Create implementation validation criteria
 - Prepare architectural decision records (ADRs) for key infrastructure choices
 
-### 8. BMAD Integration Architecture
+### 8. BMAID Integration Architecture
 
-- Design infrastructure architecture to support other BMAD agents:
+- Design infrastructure architecture to support other BMAID agents:
   - **Development Environment Architecture** - Local development patterns, testing infrastructure
   - **Deployment Architecture** - How applications from Frontend/Backend agents will be deployed
   - **Integration Architecture** - How infrastructure supports cross-service communication
-  - Document infrastructure requirements for each BMAD agent workflow
+  - Document infrastructure requirements for each BMAID agent workflow
 
 ### 9. Architecture Review and Finalization
 
@@ -1061,7 +1061,7 @@ A comprehensive infrastructure architecture document that provides:
 3. **Implementation Specifications** - Clear guidance for DevOps/Platform Engineering implementation
 4. **Architectural Constraints** - Non-negotiable requirements and patterns
 5. **Integration Architecture** - How infrastructure supports application architecture
-6. **BMAD Workflow Support** - Infrastructure architecture supporting all agent workflows
+6. **BMAID Workflow Support** - Infrastructure architecture supporting all agent workflows
 7. **Feasibility Validation** - Documented operational feedback and constraint resolution
 
 **Output file**: `docs/infrastructure-architecture.md`
@@ -1079,7 +1079,7 @@ Present the user with the following list of 'Advanced Reflective, Elicitation & 
 3. **Security Architecture & Compliance Deep Dive**
 4. **Cost Architecture Analysis & Optimization Strategy Review**
 5. **Operational Excellence & Reliability Architecture Assessment**
-6. **Cross-Functional Integration & BMAD Workflow Analysis**
+6. **Cross-Functional Integration & BMAID Workflow Analysis**
 7. **Future Technology & Migration Architecture Path Exploration**
 8. **Finalize this Section and Proceed.**
 
@@ -1112,8 +1112,8 @@ To identify the next logical story based on project progress and epic definition
   - Data Models Document (as referenced in Index Doc)
   - API Reference Document (as referenced in Index Doc)
   - UI/UX Specifications, Style Guides, Component Guides (if relevant, as referenced in Index Doc)
-- The `bmad-agent/templates/story-tmpl.md` (hereafter "Story Template")
-- The `bmad-agent/checklists/story-draft-checklist.md` (hereafter "Story Draft Checklist")
+- The `bmaid-agent/templates/story-tmpl.md` (hereafter "Story Template")
+- The `bmaid-agent/checklists/story-draft-checklist.md` (hereafter "Story Draft Checklist")
 - User confirmation to proceed with story identification and, if needed, to override warnings about incomplete prerequisite stories.
 
 ## Task Execution Instructions
@@ -1346,9 +1346,9 @@ To implement a comprehensive platform infrastructure stack based on the Infrastr
 - Implement platform SLA monitoring and service level management
 - Validate operational excellence and platform reliability
 
-### 11. BMAD Workflow Integration
+### 11. BMAID Workflow Integration
 
-- Verify complete platform supports all BMAD agent workflows:
+- Verify complete platform supports all BMAID agent workflows:
   - **Frontend/Backend Development** - Test complete application development and deployment workflows
   - **Infrastructure Development** - Validate infrastructure-as-code development and deployment
   - **Cross-Agent Collaboration** - Ensure seamless collaboration between all agent types
@@ -1403,7 +1403,7 @@ Fully operational and integrated platform infrastructure with:
 4. **Service Mesh Communication Platform** - Advanced service communication with security and observability
 5. **Developer Experience Platform** - Self-service capabilities with productivity tooling and golden paths
 6. **Integrated Platform Operations** - Comprehensive monitoring, automation, and operational excellence
-7. **BMAD Workflow Support** - Verified integration supporting all agent development and deployment patterns
+7. **BMAID Workflow Support** - Verified integration supporting all agent development and deployment patterns
 8. **Platform Documentation** - Complete operational guides, troubleshooting resources, and developer documentation
 9. **Joint Planning Documentation** - Collaborative planning outcomes and architectural alignment records
 10. **Implementation Review Results** - Post-implementation validation and architect collaboration outcomes
@@ -1422,7 +1422,7 @@ Present the user with the following list of 'Advanced Reflective, Elicitation & 
 4. **Platform Integration & Dependency Validation**
 5. **Developer Experience & Workflow Optimization**
 6. **Disaster Recovery & Platform Resilience Testing (Theoretical)**
-7. **BMAD Agent Workflow Integration & Cross-Platform Testing**
+7. **BMAID Agent Workflow Integration & Cross-Platform Testing**
 8. **Finalize this Platform Layer and Proceed.**
 
 After I perform the selected action, we can discuss the outcome and decide on any further improvements for this platform layer."
@@ -1640,7 +1640,7 @@ Transform large project documents into smaller, granular files within the `docs/
 1. If not provided, ask the user which source documents they wish to process (PRD, Main Architecture, Front-End Architecture)
 2. Validate prerequisites:
 
-   - Provided `doc-sharding-tmpl.txt` or access to `bmad-agent/doc-sharding-tmpl.txt`
+   - Provided `doc-sharding-tmpl.txt` or access to `bmaid-agent/doc-sharding-tmpl.txt`
    - Location of source documents to process
    - Write access to the `docs/` directory
    - Output method (file system or chat interface)
@@ -1861,13 +1861,13 @@ To conduct a thorough review of existing infrastructure to identify improvement 
 - Create an improvement roadmap with suggested timelines
 - Highlight cost optimization opportunities
 
-### 5. BMAD Integration Assessment
+### 5. BMAID Integration Assessment
 
-- Evaluate how current infrastructure supports other BMAD agents:
+- Evaluate how current infrastructure supports other BMAID agents:
   - **Development Support:** Assess how infrastructure enables Frontend Dev (Mira), Backend Dev (Enrique), and Full Stack Dev workflows
   - **Product Alignment:** Verify infrastructure supports PRD requirements from Product Owner (Oli)
   - **Architecture Compliance:** Check if implementation follows Architect (Alphonse) decisions
-  - Document any gaps in BMAD integration
+  - Document any gaps in BMAID integration
 
 ### 6. Architectural Escalation Assessment
 
@@ -1939,7 +1939,7 @@ A comprehensive infrastructure review report that includes:
 2. **Prioritized findings** with severity ratings
 3. **Detailed recommendations** with effort/impact estimates
 4. **Cost optimization opportunities**
-5. **BMAD integration assessment**
+5. **BMAID integration assessment**
 6. **Architectural escalation assessment** with clear escalation recommendations
 7. **Action plan** for critical improvements and architectural work
 8. **Escalation documentation** for Architect Agent collaboration (if applicable)
@@ -1973,7 +1973,7 @@ REPEAT by Asking the user if they would like to perform another Reflective, Elic
 
 ## Purpose
 
-To comprehensively validate platform infrastructure changes against security, reliability, operational, and compliance requirements before deployment. This task ensures all platform infrastructure meets organizational standards, follows best practices, and properly integrates with the broader BMAD ecosystem.
+To comprehensively validate platform infrastructure changes against security, reliability, operational, and compliance requirements before deployment. This task ensures all platform infrastructure meets organizational standards, follows best practices, and properly integrates with the broader BMAID ecosystem.
 
 ## Inputs
 
@@ -2052,9 +2052,9 @@ To comprehensively validate platform infrastructure changes against security, re
 - Provide validation signoff recommendation based on complete platform assessment
 - Document platform component integration validation results
 
-### 6. BMAD Integration Assessment
+### 6. BMAID Integration Assessment
 
-- Review how platform infrastructure changes support other BMAD agents:
+- Review how platform infrastructure changes support other BMAID agents:
   - **Development Agent Alignment:** Verify platform infrastructure supports Frontend Dev, Backend Dev, and Full Stack Dev requirements including:
     - Container platform development environment provisioning
     - GitOps workflows for application deployment
@@ -2098,7 +2098,7 @@ A comprehensive platform validation report documenting:
 3. **Detailed findings for each non-compliant item** across foundation and platform components
 4. **Platform integration validation results** documenting component interoperability
 5. **Remediation recommendations with priority levels** based on platform impact
-6. **BMAD integration assessment results** for complete platform stack
+6. **BMAID integration assessment results** for complete platform stack
 7. **Clear signoff recommendation** for platform deployment readiness or architectural revision requirements
 8. **Next steps for implementation or remediation** prioritized by platform dependencies
 
