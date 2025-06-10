@@ -148,9 +148,9 @@ To implement a comprehensive platform infrastructure stack based on the Infrastr
 - Implement platform SLA monitoring and service level management
 - Validate operational excellence and platform reliability
 
-### 11. BMAD Workflow Integration
+### 11. BMAID Workflow Integration
 
-- Verify complete platform supports all BMAD agent workflows:
+- Verify complete platform supports all BMAID agent workflows:
   - **Frontend/Backend Development** - Test complete application development and deployment workflows
   - **Infrastructure Development** - Validate infrastructure-as-code development and deployment
   - **Cross-Agent Collaboration** - Ensure seamless collaboration between all agent types
@@ -205,7 +205,7 @@ Fully operational and integrated platform infrastructure with:
 4. **Service Mesh Communication Platform** - Advanced service communication with security and observability
 5. **Developer Experience Platform** - Self-service capabilities with productivity tooling and golden paths
 6. **Integrated Platform Operations** - Comprehensive monitoring, automation, and operational excellence
-7. **BMAD Workflow Support** - Verified integration supporting all agent development and deployment patterns
+7. **BMAID Workflow Support** - Verified integration supporting all agent development and deployment patterns
 8. **Platform Documentation** - Complete operational guides, troubleshooting resources, and developer documentation
 9. **Joint Planning Documentation** - Collaborative planning outcomes and architectural alignment records
 10. **Implementation Review Results** - Post-implementation validation and architect collaboration outcomes
@@ -224,7 +224,7 @@ Present the user with the following list of 'Advanced Reflective, Elicitation & 
 4. **Platform Integration & Dependency Validation**
 5. **Developer Experience & Workflow Optimization**
 6. **Disaster Recovery & Platform Resilience Testing (Theoretical)**
-7. **BMAD Agent Workflow Integration & Cross-Platform Testing**
+7. **BMAID Agent Workflow Integration & Cross-Platform Testing**
 8. **Finalize this Platform Layer and Proceed.**
 
 After I perform the selected action, we can discuss the outcome and decide on any further improvements for this platform layer."

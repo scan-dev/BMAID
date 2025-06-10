@@ -54,7 +54,7 @@
 - **Strategic Decisions**: High-level system design, technology selection, architectural patterns
 - **Cross-System Concerns**: Integration strategies, data architecture, security models
 
-### Clear DevOps/Platform Engineering Ownership  
+### Clear DevOps/Platform Engineering Ownership
 - **How & When**: Implements, operates, and maintains systems
 - **Operational Concerns**: Day-to-day infrastructure, CI/CD implementation, monitoring
 - **Tactical Execution**: Performance optimization, security tooling, incident response

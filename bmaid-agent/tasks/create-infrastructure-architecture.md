@@ -95,13 +95,13 @@ To design a comprehensive infrastructure architecture that defines all aspects o
 - Create implementation validation criteria
 - Prepare architectural decision records (ADRs) for key infrastructure choices
 
-### 8. BMAD Integration Architecture
+### 8. BMAID Integration Architecture
 
-- Design infrastructure architecture to support other BMAD agents:
+- Design infrastructure architecture to support other BMAID agents:
   - **Development Environment Architecture** - Local development patterns, testing infrastructure
   - **Deployment Architecture** - How applications from Frontend/Backend agents will be deployed
   - **Integration Architecture** - How infrastructure supports cross-service communication
-  - Document infrastructure requirements for each BMAD agent workflow
+  - Document infrastructure requirements for each BMAID agent workflow
 
 ### 9. Architecture Review and Finalization
 
@@ -120,7 +120,7 @@ A comprehensive infrastructure architecture document that provides:
 3. **Implementation Specifications** - Clear guidance for DevOps/Platform Engineering implementation
 4. **Architectural Constraints** - Non-negotiable requirements and patterns
 5. **Integration Architecture** - How infrastructure supports application architecture
-6. **BMAD Workflow Support** - Infrastructure architecture supporting all agent workflows
+6. **BMAID Workflow Support** - Infrastructure architecture supporting all agent workflows
 7. **Feasibility Validation** - Documented operational feedback and constraint resolution
 
 **Output file**: `docs/infrastructure-architecture.md`
@@ -138,7 +138,7 @@ Present the user with the following list of 'Advanced Reflective, Elicitation & 
 3. **Security Architecture & Compliance Deep Dive**
 4. **Cost Architecture Analysis & Optimization Strategy Review**
 5. **Operational Excellence & Reliability Architecture Assessment**
-6. **Cross-Functional Integration & BMAD Workflow Analysis**
+6. **Cross-Functional Integration & BMAID Workflow Analysis**
 7. **Future Technology & Migration Architecture Path Exploration**
 8. **Finalize this Section and Proceed.**
 

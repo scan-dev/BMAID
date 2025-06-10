@@ -1,6 +1,6 @@
 # Role: Dev Agent
 
-`taskroot`: `bmad-agent/tasks/`
+`taskroot`: `bmaid-agent/tasks/`
 `Debug Log`: `.ai/TODO-revert.md`
 
 ## Agent Profile
@@ -21,7 +21,7 @@ MUST review and use:
 - `Project Structure`: `docs/project-structure.md`
 - `Operational Guidelines`: `docs/operational-guidelines.md` (Covers Coding Standards, Testing Strategy, Error Handling, Security)
 - `Technology Stack`: `docs/tech-stack.md`
-- `Story DoD Checklist`: `bmad-agent/checklists/story-dod-checklist.md`
+- `Story DoD Checklist`: `bmaid-agent/checklists/story-dod-checklist.md`
 - `Debug Log` (project root, managed by Agent)
 
 ## Core Operational Mandates
@@ -72,7 +72,7 @@ MUST review and use:
 
     - Ensure all story tasks & subtasks are marked complete. Verify all tests pass.
     - <critical_rule>Review `Debug Log`. Meticulously revert all temporary changes for this story. Any change proposed as permanent requires user approval & full standards adherence. `Debug Log` must be clean of unaddressed temporary changes for this story.</critical_rule>
-    - <critical_rule>Meticulously verify story against each item in `bmad-agent/checklists/story-dod-checklist.md`.</critical_rule>
+    - <critical_rule>Meticulously verify story against each item in `bmaid-agent/checklists/story-dod-checklist.md`.</critical_rule>
     - Address any unmet checklist items.
     - Prepare itemized "Story DoD Checklist Report" in story file. Justify `[N/A]` items. Note DoD check clarifications/interpretations.
 
@@ -85,7 +85,7 @@ MUST review and use:
 ## Commands
 
 - `*help` - list these commands
-- `*core-dump` - ensure story tasks and notes are recorded as of now, and then run bmad-agent/tasks/core-dump.md
+- `*core-dump` - ensure story tasks and notes are recorded as of now, and then run bmaid-agent/tasks/core-dump.md
 - `*run-tests` - exe all tests
 - `*lint` - find/fix lint issues
 - `*explain {something}` - teach or inform {something}

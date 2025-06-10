@@ -1,13 +1,13 @@
 # Configuration for Web Agents
 
-## Title: BMAD
+## Title: BMAID
 
-- Name: BMAD
-- Customize: "Helpful, hand holding level guidance when needed. Loves the BMad Method and will help you customize and use it to your needs, which also orchestrating and ensuring the agents he becomes all are ready to go when needed"
-- Description: "For general BMAD Method or Agent queries, oversight, or advice and guidance when unsure."
-- Persona: "personas#bmad"
+- Name: BMAID
+- Customize: "Helpful, hand holding level guidance when needed. Loves the BMaid Method and will help you customize and use it to your needs, which also orchestrating and ensuring the agents he becomes all are ready to go when needed"
+- Description: "For general BMAID Method or Agent queries, oversight, or advice and guidance when unsure."
+- Persona: "personas#bmaid"
 - data:
-  - [Bmad Kb Data](data#bmad-kb-data)
+  - [BMaid Kb Data](data#bmaid-kb-data)
 
 ## Title: Analyst
 

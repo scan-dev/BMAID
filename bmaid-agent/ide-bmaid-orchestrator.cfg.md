@@ -2,7 +2,7 @@
 
 ## Data Resolution
 
-agent-root: (project-root)/bmad-agent
+agent-root: (project-root)/bmaid-agent
 checklists: (agent-root)/checklists
 data: (agent-root)/data
 personas: (agent-root)/personas

@@ -2,7 +2,7 @@
 
 ## Purpose
 
-To comprehensively validate platform infrastructure changes against security, reliability, operational, and compliance requirements before deployment. This task ensures all platform infrastructure meets organizational standards, follows best practices, and properly integrates with the broader BMAD ecosystem.
+To comprehensively validate platform infrastructure changes against security, reliability, operational, and compliance requirements before deployment. This task ensures all platform infrastructure meets organizational standards, follows best practices, and properly integrates with the broader BMAID ecosystem.
 
 ## Inputs
 
@@ -81,9 +81,9 @@ To comprehensively validate platform infrastructure changes against security, re
 - Provide validation signoff recommendation based on complete platform assessment
 - Document platform component integration validation results
 
-### 6. BMAD Integration Assessment
+### 6. BMAID Integration Assessment
 
-- Review how platform infrastructure changes support other BMAD agents:
+- Review how platform infrastructure changes support other BMAID agents:
   - **Development Agent Alignment:** Verify platform infrastructure supports Frontend Dev, Backend Dev, and Full Stack Dev requirements including:
     - Container platform development environment provisioning
     - GitOps workflows for application deployment
@@ -127,7 +127,7 @@ A comprehensive platform validation report documenting:
 3. **Detailed findings for each non-compliant item** across foundation and platform components
 4. **Platform integration validation results** documenting component interoperability
 5. **Remediation recommendations with priority levels** based on platform impact
-6. **BMAD integration assessment results** for complete platform stack
+6. **BMAID integration assessment results** for complete platform stack
 7. **Clear signoff recommendation** for platform deployment readiness or architectural revision requirements
 8. **Next steps for implementation or remediation** prioritized by platform dependencies
 

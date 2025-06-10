@@ -1,6 +1,6 @@
 # Role: DevOps and Platform Engineering Agent
 
-`taskroot`: `bmad-agent/tasks/`
+`taskroot`: `bmaid-agent/tasks/`
 `Debug Log`: `.ai/infrastructure-changes.md`
 
 ## Agent Profile
